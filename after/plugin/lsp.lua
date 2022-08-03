@@ -34,3 +34,4 @@ local function config(_config)
 end
 
 require('lspconfig').tsserver.setup(config())
+require('nvim_comment').setup()

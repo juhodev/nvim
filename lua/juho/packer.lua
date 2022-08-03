@@ -13,4 +13,6 @@ return require('packer').startup(function()
      use 'nvim-treesitter/nvim-treesitter'
      use 'nvim-lua/plenary.nvim'
      use 'nvim-telescope/telescope.nvim'
-end)
+
+     use 'terrortylor/nvim-comment'
+end
