@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/juhoseppala/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  neoformat = {
+    loaded = true,
+    path = "/Users/juhoseppala/.local/share/nvim/site/pack/packer/start/neoformat",
+    url = "https://github.com/sbdchd/neoformat"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/juhoseppala/.local/share/nvim/site/pack/packer/start/nvim-cmp",

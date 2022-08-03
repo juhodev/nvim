@@ -15,3 +15,4 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 
 vim.g.mapleader = " "
+vim.g.neoformat_try_node_exe = 1
