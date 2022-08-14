@@ -3,7 +3,11 @@ local nnoremap = Remap.nnoremap
 
 local cmp = require('cmp')
 cmp.setup({
-    snippet = {},
+    snippet = {
+      expand = function(args)
+        require('luasnip').lsp_expand(args.body)
+      end
+    },
     mapping = cmp.mapping.preset.insert({
         ['<C-y>'] = cmp.mapping.confirm({ select = true }),
         ['<C-u>'] = cmp.mapping.scroll_docs(-4),
@@ -12,6 +16,7 @@ cmp.setup({
     }),
     sources = {
         { name = 'nvim_lsp' },
+        { name = 'luasnip' },
     },
 })
 
@@ -35,3 +40,4 @@ end
 
 require('lspconfig').tsserver.setup(config())
 require('nvim_comment').setup()
+require('lspconfig').kotlin_language_server.setup(config())

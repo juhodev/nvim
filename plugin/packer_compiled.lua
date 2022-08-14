@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/Users/juhoseppala/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/juhoseppala/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -78,6 +83,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/juhoseppala/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["kotlin-language-server"] = {
+    loaded = true,
+    path = "/Users/juhoseppala/.local/share/nvim/site/pack/packer/start/kotlin-language-server",
+    url = "https://github.com/fwcd/kotlin-language-server"
   },
   neoformat = {
     loaded = true,

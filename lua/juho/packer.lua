@@ -9,6 +9,8 @@ return require('packer').startup(function()
      use 'hrsh7th/cmp-nvim-lsp'
      use 'hrsh7th/cmp-buffer'
      use 'hrsh7th/nvim-cmp'
+     use 'L3MON4D3/LuaSnip'
+     use 'fwcd/kotlin-language-server'
 
      use 'nvim-treesitter/nvim-treesitter'
      use 'nvim-lua/plenary.nvim'
