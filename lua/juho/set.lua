@@ -16,3 +16,5 @@ vim.opt.wrap = false
 
 vim.g.mapleader = " "
 vim.g.neoformat_try_node_exe = 1
+
+vim.g.jsdoc_lehre_path = 'C:\\Users\\juhos\\AppData\\Roaming\\nvm\\v16.19.0\\lehre'

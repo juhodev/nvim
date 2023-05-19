@@ -14,6 +14,7 @@ return require('packer').startup(function()
      use 'L3MON4D3/LuaSnip'
      use 'fwcd/kotlin-language-server'
      use 'victorhqc/tree-sitter-prisma'
+     use 'heavenshell/vim-jsdoc'
 
      use 'nvim-treesitter/nvim-treesitter'
      use 'nvim-lua/plenary.nvim'
