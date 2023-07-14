@@ -18,8 +18,12 @@ return require('packer').startup(function()
 
      use 'nvim-treesitter/nvim-treesitter'
      use 'nvim-lua/plenary.nvim'
-     use 'nvim-telescope/telescope.nvim'
+     use { 'nvim-telescope/telescope.nvim', tag = '0.1.1' }
+     use 'nvim-treesitter/nvim-treesitter-context'
 
      use 'terrortylor/nvim-comment'
      use 'sbdchd/neoformat'
+
+     use 'APZelos/blamer.nvim'
+     use "EdenEast/nightfox.nvim"
 end)
